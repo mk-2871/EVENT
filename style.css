@@ -1,0 +1,235 @@
+body{
+  background-image: url("images/nasa.jpg");
+  display: static;
+  background-size: cover;
+  overflow: auto;
+  }
+  
+
+
+.hh1{
+  font-family:sans-serif;
+  font-size:xx-large;
+  padding-top: 16px;
+  color: white;
+  text-align: center;
+}
+
+.hh2{
+  font-family:sans-serif;
+  font-size:x-large;
+  color: white;
+  text-align: center;
+}
+
+
+img{
+  width: 60%;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-left: 180px;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+
+
+.logo{
+  
+  margin-top: 15px;
+  margin-left: 72px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  border-radius: 50%;
+ }
+ 
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.TC{
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.st-2{
+  font-size: large;
+  padding-top: 20px;
+  text-decoration: none;
+  margin-right: 88px;
+}
+
+
+
+
+.pay-now-button {
+
+  
+  background-color: #007bff;
+  border: none;
+  color: white;
+
+  margin-top: 50px;
+	left: 44%;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.pay-now-button:hover {
+  background-color: #0062cc;
+}
+
+.pay-now-button:active {
+  background-color: #005cbf;
+  box-shadow: none;
+}
+
+.icon{
+  border-radius: 50%;
+}
+
+#footer{
+  color: aliceblue;
+
+  margin-top: 150px;
+  text-align: center;
+}
+
+@media (max-width:900px){
+
+  body{
+    background-size: cover;
+  }
+
+  .hh1{
+    padding-top: 30px;
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
+
+  .hh2{
+    padding-top: 0px;
+    font-size: 0.6rem;
+    margin-left: 0;
+  }
+
+  
+
+  .logo{
+    top: 8px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    width: 27%;
+  }
+
+  img{
+    margin-top: 140px;
+    margin-bottom: 140px;
+    width: 100%;
+
+  }
+  
+  .container-fluid{
+    padding: 0% 12%;
+  }
+
+  .pay-now-button{
+    text-align: center;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    position: static;
+    margin-left: 100px;
+  }
+
+  .CC{
+    padding-left: 1px;
+    padding-right: 0px;
+  }
+
+  .st-1{
+    margin-top: 15px;
+    font-size: 0.8em;
+    
+  }
+
+  .st-2{
+    font-size: 0.8em;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .logo{
+    margin-left: 7px;
+    margin-top: 5px;
+  }
+
+  #footer{
+    margin-top: 170px;
+    font-size: small;
+  }
+}
+
+.grid{
+  color: aliceblue;
+
+}
+
+.wrapper{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#eee}
+  
+  .checkmark__circle{
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;animation: 
+    stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards}
+    
+    .checkmark{
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: block;
+      stroke-width: 2;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+      margin: 10% auto;
+      box-shadow: inset 0px 0px 0px #7ac142;
+      animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both}
+      
+      .checkmark__check{
+        transform-origin: 50% 50%;
+        stroke-dasharray: 48;
+        stroke-dashoffset: 48;
+        animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards}
+        
+        @keyframes stroke{
+          100%{stroke-dashoffset: 0}}
+          
+        @keyframes scale{0%, 100%{transform: none}50%{transform: scale3d(1.1, 1.1, 1)}}
+        
+        @keyframes fill{100%{box-shadow: inset 0px 0px 0px 30px #7ac142}}
